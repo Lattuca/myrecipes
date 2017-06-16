@@ -54,11 +54,38 @@ $navbar-default-bg: #073B15;
     text-decoration: none;
   }
 
+  body {
+    height: 100%;
+  }
 
-footer#page-footer {
-  color: #073B15;
-  background: #F0F0F0;
-  text-align: center;
-  padding: 5px;
-  border-top: 3px solid darken(#F0F0F0, 10%);
+  footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+
+  footer a {
+    color: #555;
+  }
+
+  footer a:hover {
+    color: #222;
+  }
+
+  footer small {
+    float: left;
+  }
+
+  footer ul {
+    float: right;
+    list-style: none;
+  }
+
+  footer ul li {
+    float: left;
+    margin-left: 15px;
+  }
