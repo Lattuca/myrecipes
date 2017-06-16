@@ -53,3 +53,12 @@ $navbar-default-bg: #073B15;
     color: #fff;
     text-decoration: none;
   }
+
+
+footer#page-footer {
+  color: #073B15;
+  background: #F0F0F0;
+  text-align: center;
+  padding: 5px;
+  border-top: 3px solid darken(#F0F0F0, 10%);
+}
